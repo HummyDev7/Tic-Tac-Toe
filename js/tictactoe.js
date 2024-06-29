@@ -16,9 +16,21 @@ const gameBoard = ( function() {
     
   }
 
-  function askPlayerName() {}
+  function askPlayerName() {
+    let askPlayer = prompt('')
+  }
 
-  function askPlayGame() {}
+  function askPlayGame() {
+    console.log("WELCOME TO TIC-TAC-TOE CONSOLE BASED!!!");
+    let continueGame  = prompt("Do you want to play the game? ( yes / no ): ");
+
+    if ( continueGame.toLowerCase() == 'yes' ) {
+
+      askPlayerName();
+    } else if ( continueGame.toLowerCase() == 'no' ) {
+      //!Exit the game find sollution for this
+    }
+  }
 
   function askInput() {}
 
@@ -27,6 +39,6 @@ const gameBoard = ( function() {
   function drawBoardConsole() {}
 
   function updateBoardConsole() {}
-  
+
   function tttSolution() {}
 })();
