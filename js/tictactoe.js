@@ -9,28 +9,11 @@ const gameBoard = ( function() {
   
   //Bind Events
 
-  
-  
-  //Console Game Based
-  function consoleBased() {
-    
-  }
+  function consoleBased() {}
 
-  function askPlayerName() {
-    let askPlayer = prompt('')
-  }
+  function askPlayerName() {}
 
-  function askPlayGame() {
-    console.log("WELCOME TO TIC-TAC-TOE CONSOLE BASED!!!");
-    let continueGame  = prompt("Do you want to play the game? ( yes / no ): ");
-
-    if ( continueGame.toLowerCase() == 'yes' ) {
-
-      askPlayerName();
-    } else if ( continueGame.toLowerCase() == 'no' ) {
-      //!Exit the game find sollution for this
-    }
-  }
+  function askPlayGame() {}
 
   function askInput() {}
 
